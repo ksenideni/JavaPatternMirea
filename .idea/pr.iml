@@ -7,5 +7,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="springframework.spring.context" level="project" />
+    <orderEntry type="library" name="aspectj.aspectjweaver" level="project" />
   </component>
 </module>
