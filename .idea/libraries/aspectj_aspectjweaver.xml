@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="aspectj.aspectjweaver" type="repository">
-    <properties maven-id="org.aspectj:aspectjweaver:1.9.6" />
+    <properties maven-id="org.aspectj:aspectjweaver:1.9.7" />
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/lib/aspectjweaver-1.9.6.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/aspectj/aspectjweaver/1.9.7/aspectjweaver-1.9.7.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

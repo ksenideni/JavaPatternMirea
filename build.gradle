@@ -1,0 +1,33 @@
+plugins {
+    id 'java'
+}
+
+
+sourceSets {
+    main {
+        java {
+            srcDirs 'src/ru/mirea/task9'
+        }
+    }
+}
+
+jar {
+   manifest {
+       attributes('Main-Class': 'ru.mirea.task9.Main')
+   }
+   baseName = 'myJarTask9'
+}
+
+task copyJar {
+    dependsOn("build")
+    doLast {
+        copy {
+            from 'build/libs/myJarTask9.jar'
+            into "DocerFileDir"
+        }
+        exec {
+            workingDir 'DocerFileDir'
+            executable 'C:\\Users\\Acer\\Desktop\\ideaU\\JavaPatternMirea\\DocerFileDir\\run.bat'
+        }
+    }
+}

@@ -1,0 +1,7 @@
+Приложение с использованием с такими зависимостями:
+           – Spring Web;
+           – Lombok;
+           – Validation;
+           – Spring boot Actuator.
+
+Ссылка на репозиторий:
